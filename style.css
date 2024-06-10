@@ -16,7 +16,11 @@ body {
     gap: 1.5vmin;
 
 }
-
+.title {
+    font-size: 3rem;
+    color: #fff;
+    margin: 1rem 0;
+}
 .game{
     height: 60vmin;
     width: 60vmin;
@@ -58,7 +62,12 @@ body {
     font-size: 8vmin;
 }
 .msg-container{
-    height: 30vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 .hide{
