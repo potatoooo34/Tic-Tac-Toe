@@ -61,12 +61,14 @@ const showWinner = (winner) =>{
     msg.innerText = `Congratulations , Winner is ${winner}`;
     msgContainer.classList.remove("hide");
     disableBtns();
+    resetBtn.classList.remove("hide");
     count = 0;
 } 
 const showDraw = () =>{
     msg.innerText = `Game is a draw`;
     msgContainer.classList.remove("hide");
     disableBtns();
+
     count = 0;
 }  
 const checkWinner = () =>{
